@@ -3,7 +3,8 @@ import { useDispatch } from 'react-redux' // for merging react with redux
 import './App.css'
 import authService from "./appwrite/auth";
 import {login,logout} from "./store/authSlice"
-import { Footer, Header } from './conponents';
+import Header from './conponents/Header/Header';
+import Footer from './conponents/Footer/Footer';
 import { Outlet } from 'react-router-dom';
 
 function App() {
@@ -34,5 +35,6 @@ function App() {
     </div>
   ) : null
 }
+
 
 export default App

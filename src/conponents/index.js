@@ -28,5 +28,5 @@ export {
     RTE,
     Select,
     SignUp,
-    Login
+    Login,
 }

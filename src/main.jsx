@@ -9,7 +9,7 @@ import { AuthLayout } from "./conponents/index.js";
 import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
-import AllPosts from "./pages/AllPost.jsx";
+import AllPost from "./pages/AllPost.jsx";
 import AddPost from "./pages/AddPost.jsx";
 import EditPost from "./pages/EditPost.jsx";
 import Post from "./pages/Post.jsx";
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
         element: (
           <AuthLayout authentication>
             {" "}
-            <AllPosts />
+            <AllPost />
           </AuthLayout>
         ),
       },

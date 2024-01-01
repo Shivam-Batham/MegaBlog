@@ -3,9 +3,9 @@ import React, {useState,useEffect} from 'react'
 import appwriteService from '../appwrite/configuration'
 import {Container ,PostCard} from "../conponents"
 function AllPost() {
-    const [post , setPosts] = useState([]);
+    const [posts , setPosts] = useState([]);
     useEffect(()=>{},[])
-    appwriteService.getPosts([]).then((pots)=>{
+    appwriteService.getPosts([]).then((posts)=>{
         if(posts){
             setPosts(posts.documents)
         }
@@ -16,9 +16,9 @@ function AllPost() {
       <Container >
         <div className='flex flex-wrap'>
         {
-            PostCard.map((post)=>(
+            posts.map((post)=>(
                 <div key={post.$id} className='p-2 w-1/4'>
-                    <PostCard post={post} />
+                <PostCard {...post} />
                 </div>
             ))
         }

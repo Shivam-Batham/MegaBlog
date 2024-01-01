@@ -29,7 +29,7 @@ export class Service{
                 }
             )
         }catch(error){
-            throw error;
+            console.log("Appwrite serive :: createPost :: error", error);
         }
     }
 
@@ -49,7 +49,7 @@ export class Service{
                 }
             )
         }catch(error){
-            throw error;
+            console.log("Appwrite serive :: updatePost :: error", error);
         }
     }
     // delete post 

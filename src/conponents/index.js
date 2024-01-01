@@ -1,6 +1,6 @@
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
-import Container from "./container/Container.js"
+import Container from "./container/Container.jsx"
 import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import Button from "./Button.jsx";
@@ -14,6 +14,7 @@ import PostCard from "./PostCard.jsx"
 import AuthLayout from "./Protected.jsx"
 
 export {
+    
     AuthLayout,
     PostCard,
     PostForm,

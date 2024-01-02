@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useState,useEffect } from 'react'
 import Container from '../conponents/container/Container'
 import { PostCard } from '../conponents/index.js'
 

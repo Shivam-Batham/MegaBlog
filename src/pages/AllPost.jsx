@@ -3,6 +3,7 @@ import React, {useState,useEffect} from 'react'
 import appwriteService from '../appwrite/configuration'
 import Container  from '../conponents/container/Container'
 import  {PostCard}  from '../conponents/index.js'
+
 function AllPost() {
     const [posts , setPosts] = useState([]);
     useEffect(()=>{},[])

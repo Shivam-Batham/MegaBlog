@@ -11,9 +11,9 @@ import SignUp from "./SignUp.jsx";
 import Login from "./Login.jsx";
 import PostForm from "./post-form/PostForm.jsx";
 import PostCard from "./PostCard.jsx"
-import AuthLayout from "./Protected.jsx"
+import Protected from "./Protected.jsx"
 export {  
-    AuthLayout,
+    Protected,
     PostCard,
     PostForm,
     Header,

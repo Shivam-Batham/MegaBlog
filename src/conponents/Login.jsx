@@ -56,11 +56,12 @@ function Login() {
         
         <form onSubmit={handleSubmit(login)} className="mt-8">
             <div className='space-y-5'>
+                
                 <Input 
                     label='email: '
                     placeholder = 'Enter your email'
                     type='email'
-                    {...register("emial",{
+                    {...register("email",{
                         required:true,
                         validate:{
                             matchPatern: (value) => /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(value) ||
@@ -70,7 +71,7 @@ function Login() {
 
                     }
                 />
-                //password
+                {/* //password */}
                 <Input 
                     label ='Password: '
                     placeholder='enter password'
@@ -79,7 +80,7 @@ function Login() {
                         required:true
                     })}
                 />
-                // Button
+                
                 <Button 
                 type="submit"
                 className="w-full">

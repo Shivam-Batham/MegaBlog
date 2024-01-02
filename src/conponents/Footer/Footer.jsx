@@ -15,7 +15,7 @@ function Footer() {
                               </div>
                               <div>
                                   <p className="text-sm text-gray-600">
-                                      &copy; Copyright 2023. All Rights Reserved by DevUI.
+                                      &copy; Copyright 2023. All Rights Reserved by Me❤💙.
                                   </p>
                               </div>
                           </div>
@@ -86,7 +86,7 @@ function Footer() {
                                   <li className="mb-4">
                                       <Link
                                           className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                          to="/"
+                                          to="https://github.com/Shivam-Batham"
                                       >
                                           Contact Us
                                       </Link>
